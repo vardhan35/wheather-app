@@ -1,3 +1,5 @@
+@import './variables';
+
 .navbar{
   width: 100%;
   top:0;
@@ -5,7 +7,7 @@
   position:fixed;
   z-index: 1;
   height: 70px;
-  background: #a764582e;
+  background:$light-color;
   display: flex;
   justify-content: space-between;
 }
@@ -14,6 +16,6 @@
   display: flex;
   align-items: center;
   height: 100%;
-  color: tomato;
-  margin-left: 0.5em;
+  color: $tomato-color;
+  margin-left: 1em;
 }
