@@ -1,0 +1,44 @@
+.home{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.main{
+  max-height:400px;
+  height: 100%;
+  max-width: 450px;
+  width: 70%;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  overflow: hidden;
+  h1{
+    color: #fff;
+    margin: 1em 0.5em;
+    font-size:2.5rem;
+  }
+  h2{
+    margin: 1em 1em;
+    font-size:1.2rem;
+  }
+
+  input{
+    font-size: 1.5rem;
+    padding: 2em 1em 0.5em 1em;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    color: white;
+    background: transparent;
+    border: none;
+  }
+  input:focus{
+    outline: none;
+  }
+  span{
+    font-size:1.2rem;
+    color:tomato;
+  }
+}
